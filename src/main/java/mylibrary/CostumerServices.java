@@ -32,6 +32,7 @@ public class CostumerServices {
 
     }
     public static void ReadCostumer(){
+        CostumerDAD.ReadCostumerDB();
 
     }
     public static void UpdateCostumer(){

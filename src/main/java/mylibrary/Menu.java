@@ -24,7 +24,8 @@ public class Menu {
 
                     break;
                 case 2:
-                    System.out.println("Listar Usuarios");
+                    System.out.println("Listar Usuarios: ");
+                    cost.ReadCostumer();
                     break;
                 case 3:
                     System.out.println("Actualizar Datos De Usuario");
